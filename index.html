@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      
+        body {
+            margin: 0;
+            font-family: 'Playfair Display', serif;
+            color: #333;
+            background-color: #f9f9f9;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            background-color: #3A4528;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 20px;
+            gap: 60px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: #8F9779;
+            text-decoration: underline;
+        }
+
+      
+      
+      .contact-section {
+            background-image: url('bg_1.jpeg');
+            background-position: center;
+            text-align: center;
+            padding: 80px 20px;
+        }
+      
+        .contact-section h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+          
+        }
+      
+        .contact-section p {
+            font-size: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+           
+        }
+
+      
+      
+      
+      
+          .contact-section {
+            background-image: url('bg_1.jpeg');
+            background-position: center;
+            text-align: center;
+            padding: 80px 20px;
+            
+        }
+   
+      
+      
+      
+
+    .gallery-wrapper {
+            background-image: url('green_background.jpeg');
+    padding: 20px 0;
+}
+
+.gallery {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('green_background.jpeg');
+
+}
+
+
+        .flower-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 15px;
+          
+        }
+
+        .flower-image {
+            width: 95%;
+            height: 400px;
+            object-fit: cover;
+            border-bottom: 2px solid #3A4528;
+        }
+
+        .bouquet-name {
+            font-size: 20px;
+            margin: 15px 0 5px;
+            color: #3A4528;
+        }
+
+        .bouquet-description {
+            font-size: 14px;
+            color: #666;
+            padding: 0 10px;
+        }
+      
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="bouquet.html">Bouquet Gallery</a></li>
+        <li><a href="plants.html">Plant Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </nav>
+
+     <div class="contact-section">
+        <h1>Bouquet Gallery</h1>
+        <p> Browse through a series of our beautiful arrangements! </p>
+    </div>
+  
+  
+  <div class="gallery-wrapper">
+
+  
+  
+    <main class="gallery">
+        <div class="flower-card">
+            <img src="flowers1-min.jpeg" alt="Orange Rose Arrangement" class="flower-image">
+            <h2 class="bouquet-name">Orange Rose Arrangement</h2>
+            <p class="bouquet-description">Bright orange roses with purple lisianthus and eucalyptus.</p>
+        </div>
+        <div class="flower-card">
+            <img src="yellow_bouquet.jpeg" alt="Sunrise Arrangement" class="flower-image">
+            <h2 class="bouquet-name">Sunrise Arrangement</h2>
+            <p class="bouquet-description">Soft yellow roses, pale green lisianthus, dark purple accents, and fresh eucalyptus leaves, wrapped in elegant gray paper.</p>
+        </div>
+        <div class="flower-card">
+            <img src="purple_bouquet.jpeg" alt="Lilac Arrangement" class="flower-image">
+            <h2 class="bouquet-name">Lilac Arrangement</h2>
+            <p class="bouquet-description">A mix of soft peach, cream, and lavender roses paired with deep purple ranunculus, white baby’s breath, lilac blossoms, and fresh eucalyptus leaves.</p>
+        </div>
+        <div class="flower-card">
+            <img src="orange_bouquet.jpeg" alt="Pastel Arrangement" class="flower-image">
+            <h2 class="bouquet-name">Pastel Arrangement</h2>
+            <p class="bouquet-description">Peach and pink roses, orange orchids, white flowers, lavender accents, eucalyptus leaves, and yellow billy balls, wrapped in brown paper.</p>
+        </div>
+        <div class="flower-card">
+            <img src="pink_bouquet.jpeg" alt="Pink Carnation Arrangement" class="flower-image">
+            <h2 class="bouquet-name">Pink Carnation Arrangement</h2>
+            <p class="bouquet-description">Soft pink and white roses, delicate carnations, pink baby’s breath, and fresh green foliage, wrapped in light brown and white paper.</p>
+        </div>
+    </main>
+</body>
+</html>
